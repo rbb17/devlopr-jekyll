@@ -1,7 +1,7 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: rbb
+subtitle: Rohit's zone
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  My portfolio website
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -16,8 +16,8 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
+    # - text: Shop
+    #   url : /shop
     - text: Contact
       url : /contact
 
@@ -25,35 +25,48 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author: Rohit Bankar
+author_bio: Hi, my name is Rohit Bankar!
+author_email: "rohitbankar2000@gmail.com"
+author_location: West Lafayette, USA
+author_website_url: "https://rohitbankar.com"
+typewrite-text: Lets Go You can edit this in _config.yml we can file
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
+            - company_name: Razorpay
+              company_logo: razorpay.png
+              company_url: https://razorpay.com/
               designation: Software Engineer
-              description: Worked on various Google Products
+              description: Engineered core data systems at Razorpay
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Jaguar Land Rover
+              company_logo: jlr.png
+              company_url: https://www.jlr.com/
+              designation: Machine Learning Intern
+              description: Built ML pipelines at JLR to boost accuracy and reliability.
+              visibility: true
+            - company_name: Purdue
+              company_logo: purdue.png
+              company_url: https://www.purdue.edu/
+              designation: Graduate Research Assistant
+              description: Building data pipelines and developing websites.
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
+              - college_logo: purdue.png
+                college_name: Purdue
+                college_url: https://www.purdue.edu/
                 college_degree: CS Engineer
+                description: Master of Science
+                visibility: true
+
+              - college_logo: iiti.png
+                college_name: IIT Indore
+                college_url: https://www.iiti.ac.in/
+                college_degree: Engineering
                 description: Bachelor of Technology
                 visibility: true
 
@@ -71,13 +84,13 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: xplor4r
-github_username:  sujaykundu777
-instagram_username: xplor4r
+# twitter_username: xplor4r
+github_username:  rbb17
+instagram_username: __rohitbankar
 # facebook_username: johndoe
-# linkedin_username: johndoe
+linkedin_username: rohitbankar
 # behance_username: johndoe
-# medium_username: johndoe
+medium_username: rohitbankar
 # telegram_username: johndoe
 # dribbble_username: johndoe
 # flickr_username: johndoe
@@ -88,17 +101,17 @@ instagram_username: xplor4r
 # hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+# wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+# mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+formspree_email: rohitbankar2000@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
+olvy_organization: rbb
 olvy_widget_type: sidebar
 
 # syntax highlighter
